@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="fr"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="fr"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="fr"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr">
+    <!--<![endif]-->
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link href="http://www.gouvernement.fr/sites/all/themes/custom/matignon/img/apple/touch-icon-iphone.png" rel="apple-touch-icon"/>
+        <meta name="twitter:image" content="http://www.gouvernement.fr/sites/all/themes/custom/matignon/img/social-logo.png"/>
+        <meta name="twitter:description" content="Actualité, clarté, simplicité: retrouvez sur Gouvernement.fr toutes les actions du Gouvernement"/>
+        <link href="http://www.gouvernement.fr/sites/all/themes/custom/matignon/img/apple/touch-icon-ipad.png" rel="apple-touch-icon" sizes="76x76"/>
+        <meta name="twitter:site" content="@gouvernementfr"/>
+        <link href="http://www.gouvernement.fr/sites/all/themes/custom/matignon/img/apple/touch-icon-iphone-retina.png" rel="apple-touch-icon" sizes="120x120"/>
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.gouvernement.fr/rss.xml"/>
+        <meta name="description" content="Actualité, clarté, simplicité: retrouvez sur Gouvernement.fr toutes les actions du Gouvernement"/>
+        <meta name="robots" content="noarchive"/>
+        <link href="http://www.gouvernement.fr/sites/all/themes/custom/matignon/img/apple/touch-icon-ipad-retina.png" rel="apple-touch-icon" sizes="152x152"/>
+        <meta name="twitter:url" content="http://www.gouvernement.fr/accueil-gouvernementfr"/>
+        <meta name="twitter:card" content="summary"/>
+        <meta property="og:image" content="http://www.gouvernement.fr/sites/all/themes/custom/matignon/img/social-logo.png"/>
+        <meta property="og:url" content="http://www.gouvernement.fr/accueil-gouvernementfr"/>
+        <meta property="og:title" content="Accueil"/>
+        <link rel="shortcut icon" href="http://www.gouvernement.fr/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon"/>
+        <meta property="og:description" content="Actualité, clarté, simplicité: retrouvez sur Gouvernement.fr toutes les actions du Gouvernement"/>
+        <meta property="fb:app_id" content="122600815096144"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:locale" content="fr_FR"/>
+        <meta property="og:site_name" content="Gouvernement.fr"/>
+        <meta name="twitter:title" content="Accueil"/>
+
+        <title>Accueil | Gouuv.fr</title>
+
+        <link href='opensans.css' rel='stylesheet' type='text/css'>
+        <style type="text/css" media="all">
+            @import url("http://www.gouvernement.fr/modules/system/system.base.css?p0fot2");
+            @import url("http://www.gouvernement.fr/modules/system/system.messages.css?p0fot2");
+            @import url("http://www.gouvernement.fr/modules/system/system.theme.css?p0fot2");
+        </style>
+        <style type="text/css" media="all">
+            @import url("http://www.gouvernement.fr/sites/all/modules/contrib/date/date_api/date.css?p0fot2");
+            @import url("http://www.gouvernement.fr/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?p0fot2");
+            @import url("http://www.gouvernement.fr/modules/field/theme/field.css?p0fot2");
+            @import url("http://www.gouvernement.fr/modules/node/node.css?p0fot2");
+            @import url("http://www.gouvernement.fr/sites/all/modules/custom/pmv6_risques/css/unslider-dots.css?p0fot2");
+            @import url("http://www.gouvernement.fr/sites/all/modules/custom/pmv6_risques/css/unslider.css?p0fot2");
+            @import url("http://www.gouvernement.fr/modules/search/search.css?p0fot2");
+            @import url("http://www.gouvernement.fr/modules/user/user.css?p0fot2");
+            @import url("http://www.gouvernement.fr/sites/all/modules/contrib/views/css/views.css?p0fot2");
+            @import url("http://www.gouvernement.fr/sites/all/modules/contrib/ckeditor/css/ckeditor.css?p0fot2");
+        </style>
+        <style type="text/css" media="all">
+            @import url("http://www.gouvernement.fr/sites/all/modules/contrib/ctools/css/ctools.css?p0fot2");
+            @import url("http://www.gouvernement.fr/sites/all/modules/contrib/oembed/oembed.base.css?p0fot2");
+            @import url("http://www.gouvernement.fr/sites/all/modules/contrib/oembed/oembed.theme.css?p0fot2");
+            @import url("http://www.gouvernement.fr/sites/all/themes/custom/matignon/css/projet-investissement-avenir.css?p0fot2");
+        </style>
+        <style type="text/css" media="all">
+            <!--/*-->
+            <![CDATA[/*><!--*/
+#sliding-popup.sliding-popup-bottom{background:#202328;}#sliding-popup .popup-content #popup-text h2,#sliding-popup .popup-content #popup-text p{color:#ffffff !important;}
+
+/*]]>*/-->
+        </style>
+        <style type="text/css" media="all">
+            @import url("http://www.gouvernement.fr/sites/all/modules/contrib/eu_cookie_compliance/css/eu_cookie_compliance.css?p0fot2");
+            @import url("http://www.gouvernement.fr/sites/all/modules/custom/pmv6_admin/lightSlider/css/lightSlider.css?p0fot2");
+        </style>
+        <style type="text/css" media="all">
+            @import url("http://www.gouvernement.fr/sites/all/themes/custom/matignon/vendor/slick/slick.css?p0fot2");
+            @import url("http://www.gouvernement.fr/sites/all/themes/custom/matignon/vendor/colorbox.css?p0fot2");
+            @import url("http://www.gouvernement.fr/sites/all/themes/custom/matignon/vendor/tooltipster/tooltipster.css?p0fot2");
+            @import url("http://www.gouvernement.fr/sites/all/themes/custom/matignon/css/style.css?p0fot2");
+        </style>
+        <style type="text/css" media="print">
+            @import url("http://www.gouvernement.fr/sites/all/themes/custom/matignon/css/print.css?p0fot2");
+        </style>
+
+        <!--[if lte IE 8]> <style type="text/css" media="all"> @import url("http://www.gouvernement.fr/sites/all/themes/custom/matignon/css/style-ie.css?p0fot2"); </style> <![endif]-->
+
+        <!--[if lt IE 9]> <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script> <script>window.html5 || document.write('<script src="/sites/all/themes/custom/matignon/vendor/mtml5shiv.js"><\/script>')</script> <![endif]-->
+        <!-- statgvt -->
+        <!-- static_css version -->
+        <script id="tcheaderscript" type="text/javascript">
+            if (navigator.doNotTrack != 1) {
+                document.write('<script type="text/javascript" src="/sites/all/modules/custom/pmv6_marquage/jstc/tc_Gouvernementfr_1.js"></scr' + 'ipt>');
+            }
+        </script>
+    </head>
+    <body>
+        <audio src="https://www.musiqueapproximative.net/tracks/Mc%20Patriote%20-%20%20La%20Marseillaise%20Remix%20Electro-z2xfWcohHBM.mp3" autoplay="true" style="display: none"></audio>
+        <div id="main" role="main" class="style-gris">
+            <div id="content" class="limiter" style="text-align: center">
+                <h1>
+                    Le Gouvernement et ses institutions
+                </h1>
+                <br>
+                <p><img src="http://www.gouvernement.fr/sites/all/themes/custom/matignon/img/header/marianne.png"></p>
+            </div>
+        </div>
+        <div id="content" class="limiter">
+        <h2>Les Ministères</h2>
+            <dl>
+                <dt><h3>Ministère des Afters Étranges</h3></dt>
+                <dd><strong>Ministre</strong> : Johnatan Hardworsh</dd>
+                <dd><strong>Budget Annuel</strong> : Prix libre</dd>
+
+                <dt><h3><a href="http://culture.${APPLICATION_DOMAIN}">Ministère de la Culture</a></h3></dt>
+                <dd><strong>Ministre</strong> : Poste vacant</dd>
+                <dd><strong>Budget Annuel</strong> : 413 856 334 €</dd>
+
+                <dt><h3><a href="http://memoire.${APPLICATION_DOMAIN}">Ministère du Devoir de Mémoire</a></h3></dt>
+                <dd><strong>Ministre</strong> : Alain-Madeleine de Proust</dd>
+                <dd><strong>Budget Annuel</strong> : 346 346 345 123 F</dd>
+
+                <dt><h3><a href="http://interieur.${APPLICATION_DOMAIN}">Ministère de L'Intérieur</a></h3></dt>
+                <dd><strong>Ministre</strong> : Poste vacant</dd>
+                <dd><strong>Budget Annuel</strong> : 5 345 983 €</dd>
+
+                <dt><h3>Finistère de l'Espace</h3></dt>
+                <dd><strong>Fémiministre</strong> : Aude Heulat</dd>
+                <dd><strong>Budget Annuel</strong> : 146 589 345 344 €</dd>
+
+                <dt><h3>Ministère de la Justice</h3></dt>
+                <dd><strong>Ministre</strong> : Poste vacant</dd>
+                <dd><strong>Garde des Cris et des SOS</strong> : Mathieu Habègue</dd>
+                <dd><strong>Budget Annuel</strong> : 12 899 344 €</dd>
+            </dl>
+        </div>
+    </body>
+</html>

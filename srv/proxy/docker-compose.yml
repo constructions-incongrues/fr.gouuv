@@ -1,0 +1,42 @@
+version: '3'
+
+networks:
+  proxy:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.28.0.0/16
+
+services:
+  traefik:
+    image: traefik:1.5-alpine
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./etc/traefik.toml:/etc/traefik/traefik.toml
+    ports:
+      - ${TRAEFIK_DASHBOARD_PORT-8000}:8080
+    labels:
+      com.dnsdock.alias: traefik.proxy.docker
+    networks:
+      proxy:
+        ipv4_address: "172.28.1.1"
+    labels:
+      com.dnsdock.alias: traefik.docker
+      com.dnsdock.ip_addr: "172.28.1.1"
+      traefik.enable: "true"
+      traefik.backend: traefik
+      traefik.port: "8080"
+      traefik.frontend.rule: "Host:traefik.docker"
+      traefik.docker.network: proxy
+
+  dnsdock:
+    image: aacebedo/dnsdock:v1.16.4-amd64
+    command: --ttl=1
+    volumes:
+        - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - "172.17.0.1:8053:53/udp"
+    labels:
+      com.dnsdock.alias: dnsdock.proxy.docker
+    networks:
+      - proxy

@@ -1,0 +1,21 @@
+version: '3.4'
+
+networks:
+  proxy:
+    external:
+      name: proxy_proxy
+
+services:
+  portail_nginx:
+    image: nginx:latest
+    volumes:
+      - "./src:/usr/share/nginx/html"
+    networks:
+      - proxy
+    labels:
+      com.dnsdock.alias: portail.gouuv.docker
+      com.dnsdock.ip_addr: "172.28.1.1"
+      traefik.enable: "true"
+      traefik.backend: portail_nginx
+      traefik.frontend.rule: "Host:portail.gouuv.docker"
+      traefik.docker.network: proxy_proxy

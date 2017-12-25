@@ -1,0 +1,22 @@
+# Commons
+# https://docs.traefik.io/configuration/commons/
+defaultEntryPoints = ["http"]
+logLevel = "INFO"
+
+# Entrypoints
+# https://docs.traefik.io/configuration/entrypoints/
+[entryPoints]
+  [entryPoints.http]
+  address = ":80"
+
+# Backend : web
+# https://docs.traefik.io/configuration/backends/web/
+[web]
+address = ":8080"
+
+# Backend : docker
+[docker]
+domain = "docker"
+endpoint = "unix:///var/run/docker.sock"
+exposedbydefault = false
+watch = true
